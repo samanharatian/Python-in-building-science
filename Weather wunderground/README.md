@@ -1,24 +1,13 @@
-# Python-in-building-science
-This is a work in progress repository for teaching purposes. Examples will be uploaded gradually.
+# How to Download Outdoor Weather Data
+This [repository](https://github.com/Karlheinzniebuhr/the-weather-scraper) is a great resource to download outdoor weather data. The only changes that you need to do is:
 
-## Basic Notes
-Make sure that Python 3 is installed. If you use Visual Studio Code, the following steps would be helpful
-* Check the Python version in the terminal `python3 --version` (if you are using the new Python, you might need to use `py --version`
-* Install the missing packages using `python3 -m pip install #{the package name}` (e.g., `python3 -m pip install pandas`) - Similarly for new Python, you might need to use `py` rather than `python3`
-* Set the Python interpreter correctly with clicking on `Command` & `Shift` & `P` all together and then select ` Python: Select Interpreter' as the following image shows:
-<img width="1792" alt="Screenshot 2023-09-04 at 8 40 19 PM" src="https://github.com/berg-lab/Python-in-building-science/assets/2249257/001ad305-39dc-44ae-b542-d8dfbb68409e">
+* Change the `stations.txt` file to the desired weather station (e.g., `KILCHICA594` for the Chicago Loop). The followning text could be added:
+```
+ https://www.wunderground.com/dashboard/pws/KILCHICA594
+```
+* Update the `config.py` file to the desired dates. For example:
 
-* After that in the bottom right you should see the compiler listed as Python:
-<img width="1792" alt="Screenshot 2023-09-04 at 8 42 52 PM" src="https://github.com/berg-lab/Python-in-building-science/assets/2249257/a30f68a3-c2e2-4ad1-84d4-7aee5fe92fe4">
-
-
-
-  
-
-## Example 1: City of Chicago Benchmarking Analysis
-This example provides a jump start for the CAE 465_526 students to conduct a comparative analysis between different city benchmarking databases.
-
-
-## Example 2: Outdoor Weather Data
-This example provides a jump start to donwload outdoor weather data from Weather Wunderground. 
-
+```
+START_DATE = date(2022, 1, 1)
+END_DATE = date(2023, 9, 25)
+```
