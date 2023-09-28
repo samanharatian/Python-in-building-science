@@ -16,11 +16,11 @@ Make sure that Python 3 is installed. If you use Visual Studio Code, the followi
   
 
 ## Example 1: City of Chicago Benchmarking Analysis
-This example provides a jump start for the CAE 465_526 students to conduct a comparative analysis between different city benchmarking databases. The code is available (here)[[https://github.com/berg-lab/Python-in-building-science/tree/main/Building%20energy%20benchmarking]]
+This example provides a jump start for the CAE 465_526 students to conduct a comparative analysis between different city benchmarking databases. The code is available (here)[https://github.com/berg-lab/Python-in-building-science/tree/main/Building%20energy%20benchmarking]
 
 
 ## Example 2: Outdoor Weather Data
-This example provides a jump start to donwload outdoor weather data from Weather Wunderground. 
+This example provides a jump start to donwload outdoor weather data from Weather Wunderground. The readme is available (here)[https://github.com/berg-lab/Python-in-building-science/blob/main/Weather%20wunderground/README.md].
 
 ## Example 3: Energy Modeling Calibration using CVRMSE and NMBE Calculation 
 This example shows how to caculate CVRMSE and NMBE metrics using ASHRAE Guideline 14 when the metered data is available. 
