@@ -22,5 +22,5 @@ This example provides a jump start for the CAE 465_526 students to conduct a com
 ## Example 2: Outdoor Weather Data
 This example provides a jump start to donwload outdoor weather data from Weather Wunderground. The readme is available [here](https://github.com/berg-lab/Python-in-building-science/blob/main/Weather%20wunderground/README.md).
 
-## Example 3: Energy Modeling Calibration using CVRMSE and NMBE Calculation 
+## Example 3: Energy Modeling Calibration using CVRMSE and NMBE
 This example shows how to caculate CVRMSE and NMBE metrics using ASHRAE Guideline 14 when the metered data is available. The code is available [here](https://github.com/berg-lab/Python-in-building-science/tree/main/Energy%20model%20calibration)
